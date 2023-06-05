@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 import string
 from nltk.corpus import stopwords
 
