@@ -25,7 +25,7 @@ As variáveis presentes na base são:
 *   Brand (Brand do uísque)
 
 Tratamento e Modelagem
-A coluna Description (avaliação do uísque) foi pré processado ( x y z ) e transformado com a utilização da técnica TF-IDF. 
+A coluna Description (avaliação do uísque) foi pré-processado (etapas de normalização, tokenização e lematização) e transformado com a utilização da técnica TF-IDF. 
 Em seguida, utilizamos o modelo LightGBM com o objetivo de prever o Score (Nota fornecida pelo consumidor na avaliação do uísque) baseado em sua descrição. 
 
 Todos os passos descritos podem ser visualizados na íntegra neste notebook
